@@ -1,0 +1,37 @@
+/*  Propriétés de base */
+* {
+    color: #6F34AF;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background: url(../img/Mountain-Background.gif);
+    background-size: cover;
+    background-position-x: center;
+}
+/* Écran de titre */
+.title-screen {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-screen button {
+    border: #6F34AF solid;
+    display: flex;
+    margin-top: 25px;
+    font-size: 40px;
+}
+.title-screen button:hover {
+    color: #D0C4E8;
+    transition: (1s);
+}
+/* Écran de titre */
